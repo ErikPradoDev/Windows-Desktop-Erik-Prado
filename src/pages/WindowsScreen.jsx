@@ -1,7 +1,6 @@
 import NavBar from '../components/NavBar.jsx';
 import DesktopIcons from '../components/DesktopIcons';
 import '../styles/components/windows.sass';
-import '../styles/components/windows.css';
 
 export default function TwoPage(){
     return(

@@ -1,0 +1,15 @@
+.wallpaperDark{
+    background-image: url(../img/wallpaper-dark.jpg);
+    background-position: center;background-size: cover;background-repeat: no-repeat;}
+#photoSize{
+    background-image: url(../img/erik-prado.png);
+    background-position: center;background-size: 130%;}
+.wallpaperLookScreen{
+    background-image: url(../img/wallpaper-initial.jpg);
+    background-position: center;background-size: cover;background-repeat: no-repeat;}
+.wallpaperDark{
+    background-image: url(../img/wallpaper-dark.jpg);
+    background-position: center;background-size: cover;background-repeat: no-repeat;}
+.wallpaperLookScreen{
+    background-image: url(../img/wallpaper-initial.jpg);
+    background-position: center; background-size: cover;background-repeat: no-repeat;}

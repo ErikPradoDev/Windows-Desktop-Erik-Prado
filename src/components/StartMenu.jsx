@@ -1,6 +1,5 @@
 import React from "react";
 import '../styles/components/startMenu.sass';
-import '../styles/components/startMenu.css';
 import Mail from '../img/mail.png'
 import Txt from '../img/txt.png'
 

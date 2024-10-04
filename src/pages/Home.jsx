@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { useState} from 'react';
 
 import '../styles/components/home.sass';
-import '../styles/components/home.css';
 
 
 
