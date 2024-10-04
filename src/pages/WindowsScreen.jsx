@@ -1,8 +1,5 @@
-import React from 'react';
-import NavBar from '../components/Navbar';
+import NavBar from '../components/NavBar.jsx';
 import DesktopIcons from '../components/DesktopIcons';
-
-
 import '../styles/components/windows.sass';
 import '../styles/components/windows.css';
 
