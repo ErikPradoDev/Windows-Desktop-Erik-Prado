@@ -1,0 +1,36 @@
+@use '../variables'
+    
+#windowsMaxContainer
+    width: 100%
+    height: 100vh
+
+    #desktopContainer
+        width: 100%
+        height: calc( 100% - 50px )
+        padding: 10px
+        display: flex
+        flex-direction: column
+        gap: 10px
+        align-content: flex-start
+        align-items: flex-start
+        justify-content: flex-start
+        overflow: hidden
+        flex-wrap: wrap
+    
+.cardIconSize
+    width: 90px
+    border-radius: 5px
+    padding: 10px 0px
+    display: flex 
+    flex-direction: column 
+    align-items: center 
+    gap: 3px
+    color: #FFF
+    font-size: 12px
+
+    &:hover
+        cursor: pointer
+        background-color: variables.$ColorHover
+
+    .textCenter
+        text-align: center

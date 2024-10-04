@@ -1,0 +1,13 @@
+.wallpaperLookScreen{
+    background-image: url(../../img/wallpaper-initial.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoPicture{
+    background-image: url(../../img/erik-prado.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

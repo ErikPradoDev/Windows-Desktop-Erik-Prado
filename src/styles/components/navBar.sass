@@ -1,0 +1,68 @@
+@use '../variables'
+
+#navBar
+    width: 100%
+    height: 50px
+    background-color: variables.$ColorBgBlur
+    backdrop-filter: blur(20px)
+    display: flex 
+    align-items: center
+    justify-content: center
+    position: relative
+    gap: 6px
+
+    #infoSizeContainer
+        height: 44px
+        position: absolute
+        right: 10px
+        display: flex
+        align-items: center
+        justify-content: center
+
+        .ifonSizeItem
+            height: 44px
+            display: flex
+            justify-content: center
+            align-items: center
+            margin: 0px 3px
+            padding: 0px 6px
+            border-radius: 5px
+
+            &:hover
+                cursor: pointer
+                background-color: variables.$ColorHover
+
+        .direction
+            height: 44px
+            flex-direction: column
+            align-items: end
+            justify-content: center
+            font-size: 13px
+
+        .margin
+            margin-left: 10px
+
+        .gap
+            gap: 8px
+
+
+        p 
+            color: #FFF
+
+
+
+    .itemTaskBarSize
+        width: 44px
+        height: 44px
+        border-radius: 5px
+        display: flex
+        align-items: center
+        justify-content: center
+
+        &:hover
+            cursor: pointer
+            background-color: variables.$ColorHover
+
+#btnStart
+    background-color: #ffffff00
+    border: none
